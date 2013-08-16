@@ -1,5 +1,6 @@
 Intro::Application.routes.draw do
 
+  get "math/class_size"
   get "more/about_us"
   get "hello/from_view"
   get "hello/from_controller"
